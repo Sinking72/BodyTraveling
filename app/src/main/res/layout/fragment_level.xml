@@ -1,0 +1,56 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fra_level"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    tools:context="com.example.zhuxiaoyue.bodytraveling.Activity.LevelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/organ"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="97dp"
+        android:text="口腔"
+        android:textSize="100px" />
+
+    <ImageButton
+        android:layout_width="199dp"
+        android:layout_height="183dp"
+        android:layout_x="192dp"
+        android:layout_y="0dp"
+        android:background="@drawable/mouth" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="338dp"
+        android:layout_height="85dp"
+        android:layout_x="48dp"
+        android:layout_y="270dp"
+
+        android:text="牙齿切碎食物，对食物进行初步研磨"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="168dp"
+        android:text="舌头通过搅拌，使食物变得更小"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="219dp"
+        android:text="唾液对食物进行初步消化"
+        android:textSize="60px" />
+
+
+
+</AbsoluteLayout>

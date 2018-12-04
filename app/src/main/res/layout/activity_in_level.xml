@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_inlevel"
+    tools:context="com.example.zhuxiaoyue.bodytraveling.Activity.InLevelActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+
+        >
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/btn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="507dp"
+        android:background="@drawable/btn_text"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="507dp"
+        android:background="@drawable/btn_video"
+
+        />
+
+    <ImageButton
+        android:id="@+id/btn_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="284dp"
+        android:layout_y="504dp"
+        android:background="@drawable/btn_question"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="450dp"
+        android:text="...   ..."
+        android:textColor="@color/pink"
+        android:textSize="95dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="501dp" />
+</AbsoluteLayout>

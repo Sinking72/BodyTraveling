@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context="com.example.zhuxiaoyue.bodytraveling.Activity.HomeActivity">
+
+    <ImageButton
+        android:id="@+id/btn_knowledge"
+        android:layout_width="186dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="38dp"
+        android:layout_x="93dp"
+        android:layout_y="453dp"
+        android:background="@drawable/btn_knowledge" />
+
+    <ImageButton
+        android:id="@+id/btn_systems"
+        android:layout_width="142dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/btn_level"
+        android:layout_marginBottom="64dp"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/btn_knowledge"
+        android:layout_x="53dp"
+        android:layout_y="238dp"
+        android:background="@drawable/btn_systems" />
+
+    <ImageButton
+        android:id="@+id/btn_level"
+        android:layout_width="240dp"
+        android:layout_height="218dp"
+        android:layout_alignEnd="@+id/btn_systems"
+        android:layout_below="@+id/btn_knowledge"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="38dp"
+        android:layout_x="157dp"
+        android:layout_y="189dp"
+        android:background="@drawable/btn_level" />
+</AbsoluteLayout>

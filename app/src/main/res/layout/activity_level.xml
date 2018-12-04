@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.zhuxiaoyue.bodytraveling.Activity.LevelActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_level"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="282dp"
+                android:background="@drawable/btn_mouth" />
+
+            <ImageButton
+                android:id="@+id/btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="167dp"
+                android:layout_y="186dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="317dp"
+                android:layout_y="330dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="210dp"
+                android:layout_y="460dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="33dp"
+                android:layout_y="540dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="186dp"
+                android:layout_y="625dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="299dp"
+                android:layout_y="760dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="160dp"
+                android:layout_y="880dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="40dp"
+                android:layout_y="1000dp"
+                android:background="@drawable/btn_locked" />
+            <ImageButton
+                android:id="@+id/btn_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="170dp"
+                android:layout_y="1100dp"
+                android:background="@drawable/btn_locked" />
+
+
+            <ImageButton
+                android:id="@+id/btn_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="300dp"
+                android:layout_y="1175dp"
+                android:background="@drawable/btn_locked" />
+
+            <ImageButton
+                android:id="@+id/btn_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="196dp"
+                android:layout_y="1290dp"
+                android:background="@drawable/btn_locked" />
+
+        </AbsoluteLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
